@@ -1,9 +1,11 @@
 buildscript {
     repositories {
+        google() // Line added pgw 26/3/2023
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.0-rc2'
+        // classpath 'com.android.tools.build:gradle:2.2.0-rc2'
+        classpath 'com.android.tools.build:gradle:4.1.0' // Update the version
     }
 }
 
