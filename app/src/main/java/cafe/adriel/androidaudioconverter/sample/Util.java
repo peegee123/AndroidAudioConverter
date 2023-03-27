@@ -2,8 +2,13 @@ package cafe.adriel.androidaudioconverter.sample;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
+// pgw 27-mar-2023
+// import android.support.v4.app.ActivityCompat;
+import androidx.core.app.ActivityCompat;
+
+// pgw 27-mar-2023
+// import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 public class Util {
 

@@ -13,6 +13,8 @@ allprojects {
     repositories {
         jcenter()
         maven { url "https://jitpack.io" }
+
+        google() // <-- Make sure this line is present
     }
 }
 
